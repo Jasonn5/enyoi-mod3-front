@@ -1,0 +1,43 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.navbar-user-icon {
+  position: relative;
+  cursor: pointer;
+  font-size: 2rem;
+  color: #f97316;
+}
+
+.dropdown-menu {
+  position: absolute;
+  right: 0;
+  top: 50px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+  padding: 0.5rem;
+  min-width: 150px;
+}
+
+.dropdown-menu .p-menuitem {
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown-menu .p-menuitem:hover {
+  background-color: #f0f0f0;
+}
